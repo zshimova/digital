@@ -1,0 +1,140 @@
+@media only screen and (min-width: 1440px) {
+  .nft__img {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    overflow: hidden;
+  }
+  .header__button {
+    margin-right: 15px;
+  }
+  .experience__content {
+    width: 40%;
+  }
+  .experience__img {
+    width: 500px;
+  }
+}
+@media (max-width: 960px) {
+  .experience__content {
+    width: 100%;
+    text-align: center;
+  }
+  .experience__title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .experience__text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .experience__img {
+    display: none;
+  }
+  .browse__items {
+    flex-direction: column;
+  }
+  .browse__subtitle {
+    text-align: center;
+  }
+  .text-container__title {
+    font-size: 35px;
+  }
+  .text-container__text {
+    width: 100%;
+  }
+  .top-nft__items {
+    justify-content: space-around;
+  }
+  .footer__content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer__copy {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form__email {
+    width: auto;
+  }
+}
+@media (max-width: 760px) {
+  .header {
+    flex-direction: column;
+  }
+  .header__wraper {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .header__logo {
+    margin-bottom: 20px;
+  }
+  .header__logo {
+    width: 70px;
+  }
+  .header__cont {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  .header__icons {
+    display: none;
+  }
+  .header__button {
+    margin: 0;
+  }
+  .icons {
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .experience__img {
+    display: none;
+  }
+  .hey__button {
+    padding: 7px 45px;
+  }
+  .hey__cont {
+    display: none;
+  }
+  .hey__text-sub-container {
+    width: 100%;
+  }
+  .hey__text-p {
+    width: 100%;
+  }
+  .browse__items {
+    padding: 0 20px;
+  }
+  .nft {
+    padding: 86px 0 10px 10px;
+  }
+  .nft__text-title {
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .nft__text-p {
+    width: auto;
+  }
+  .nft__img {
+    display: none;
+  }
+  .btns {
+    margin: 0 auto 20px;
+  }
+  .faq__main-title {
+    text-align: center;
+    font-size: 58px;
+  }
+  .questions {
+    margin: 0;
+    padding: 20px 20px 0;
+  }
+  .questions__item-p {
+    padding-right: 32px;
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=mediaSass.css.map */
