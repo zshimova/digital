@@ -335,6 +335,10 @@ body {
   height: 60px;
   background-color: #fff;
 }
+.nft__text {
+  max-width: 1200px;
+  margin: auto;
+}
 .nft__text-title {
   margin: 0;
   margin-bottom: 30px;
