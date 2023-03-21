@@ -1,171 +1,178 @@
-@media only screen and (min-width: 1440px) {
-    .nft {
-        &__img {
-            width: 100%;
-        }
-    }
-}
-
-@media (max-width: 1200px) {
-    .container {
-        overflow: hidden;
-    }
-    .header__button {
-        margin-right: 15px;
-    }
-    .experience__content {
-        width: 40%;
-    }
-    .experience__img {
-        width: 500px;
-    }
-}
-
-@media (max-width: 960px) {
-    .experience {
-        &__content {
-            width: 100%;
-            text-align: center;
-        }
-        &__title {
-            font-size: 50px;
-            line-height: 55px;
-        }
-        &__text {
-            font-size: 15px;
-            line-height: 22px;
-        }
-        &__img {
-            display: none;
-        }
-    }
-    .browse {
-        &__items {
-            flex-direction: column;
-        }
-        &__subtitle {
-            text-align: center;
-        }
-    }
-    .text-container {
-        &__title {
-            font-size: 35px;
-        }
-        &__text {
-            width: 100%;
-        }
-    }
-    .top-nft {
-        &__items {
-            justify-content: space-around;
-        }
-    }
-    .footer {
-        &__content {
-            flex-wrap: wrap;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        &__copy {
-            flex-direction: column;
-            align-items: center;
-        }
-    }
-    .form {
-        &__email {
-            width: auto;
-        }
-    }
-}
-
-@media (max-width: 760px) {
-    .header {
-        flex-direction: column;
-    }
-    .header__wraper {
-        flex-direction: column;
-        margin-bottom: 20px;
-    }
-    .header__logo {
-        margin-bottom: 20px;
-    }
-    .header__logo {
-        width: 70px;
-    }
-    .header__cont {
-        margin: 0 auto;
-        display: block;
-        text-align: center;
-    }
-    .header__icons {
-        display: none;
-    }
-    .header__button {
-        margin: 0;
-    }
-    .icons {
-        margin-bottom: 20px;
-        justify-content: center;
-    }
-    .experience__img {
-        display: none;
-    }
-    .hey {
-        &__button {
-            padding: 7px 45px;
-        }
-        &__cont {
-            display: none;
-        }
-        &__text {
-            &-sub-container {
-                width: 100%;
-            }
-            &-p {
+    @media only screen and (min-width: 1440px) {
+        .nft {
+            &__img {
                 width: 100%;
             }
         }
     }
-    .browse {
-        &__items {
-            padding: 0 20px;
+    
+    @media (max-width: 1200px) {
+        .container {
+            overflow: hidden;
+        }
+        .header__button {
+            margin-right: 15px;
+        }
+        .experience__content {
+            width: 40%;
+        }
+        .experience__img {
+            width: 500px;
+        }
+        .browse {
+            &__items {
+                flex-direction: column;
+            }
+            &__subtitle {
+                text-align: center;
+            }
         }
     }
-    .nft {
-        padding: 86px 0 10px 10px;
-        &__text {
-            &-title {
+    
+    @media (max-width: 960px) {
+        .experience {
+            &__content {
+                width: 100%;
+                text-align: center;
+            }
+            &__title {
                 font-size: 50px;
                 line-height: 55px;
             }
-            &-p {
+            &__text {
+                font-size: 15px;
+                line-height: 22px;
+            }
+            &__img {
+                display: none;
+            }
+        }
+        .text-container {
+            &__title {
+                font-size: 35px;
+            }
+            &__text {
+                width: 100%;
+            }
+        }
+        .top-nft {
+            &__items {
+                justify-content: space-around;
+            }
+        }
+        .footer {
+            &__content {
+                flex-wrap: wrap;
+                flex-direction: column;
+                gap: 50px;
+                align-items: center;
+                text-align: center;
+            }
+            &__copy {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .icons {
+            justify-content: center;
+        }
+        .form {
+            &__email {
                 width: auto;
             }
         }
-        &__img {
+    }
+    
+    @media (max-width: 760px) {
+        .header {
+            flex-direction: column;
+        }
+        .header__wraper {
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+        .header__logo {
+            margin-bottom: 20px;
+        }
+        .header__logo {
+            width: 70px;
+        }
+        .header__cont {
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+        }
+        .header__icons {
             display: none;
         }
-    }
-    .btns {
-        margin: 0 auto 20px;
-    }
-    .faq {
-        &__main {
-            &-title {
-                text-align: center;
-                font-size: 58px;
+        .header__button {
+            margin: 0;
+        }
+        .icons {
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        .experience {
+            height: auto;
+            &__img {
+                display: none;
+            }
+        }
+        .hey {
+            &__button {
+                padding: 7px 45px;
+            }
+            &__cont {
+                display: none;
+            }
+            &__text {
+                &-sub-container {
+                    width: 100%;
+                }
+                &-p {
+                    width: 100%;
+                }
+            }
+        }
+        .browse {
+            &__items {
+                padding: 0 20px;
+            }
+        }
+        .nft {
+            padding: 86px 0 10px 10px;
+            &__text {
+                &-title {
+                    font-size: 50px;
+                    line-height: 55px;
+                }
+                &-p {
+                    width: auto;
+                }
+            }
+            &__img {
+                display: none;
+            }
+        }
+        .btns {
+            margin: 0 auto 20px;
+        }
+        .faq {
+            &__main {
+                &-title {
+                    text-align: center;
+                    font-size: 58px;
+                }
+            }
+        }
+        .questions {
+            margin: 0;
+            padding: 20px 20px 0;
+            &__item {
+                &-p {
+                    padding-right: 32px;
+                    font-size: 17px;
+                }
             }
         }
     }
-    .questions {
-        margin: 0;
-        padding: 20px 20px 0;
-        &__item {
-            &-p {
-                padding-right: 32px;
-                font-size: 17px;
-            }
-        }
-    }
-}

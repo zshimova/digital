@@ -289,7 +289,8 @@ body {
             margin: 0 0 13px 0;
         }
         &-p {
-            width: 431px;
+            width: 100%;
+            max-width: 431px;
         }
         &-wrapper {
             margin-bottom: 10px;
@@ -532,7 +533,7 @@ body {
         justify-content: space-between;
     }
     &__copy {
-        margin-top: 130px;
+        margin: 130px 20px 0;
         display: flex;
         justify-content: space-between;
     }

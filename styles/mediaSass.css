@@ -16,6 +16,12 @@
   .experience__img {
     width: 500px;
   }
+  .browse__items {
+    flex-direction: column;
+  }
+  .browse__subtitle {
+    text-align: center;
+  }
 }
 @media (max-width: 960px) {
   .experience__content {
@@ -33,12 +39,6 @@
   .experience__img {
     display: none;
   }
-  .browse__items {
-    flex-direction: column;
-  }
-  .browse__subtitle {
-    text-align: center;
-  }
   .text-container__title {
     font-size: 35px;
   }
@@ -51,12 +51,16 @@
   .footer__content {
     flex-wrap: wrap;
     flex-direction: column;
+    gap: 50px;
     align-items: center;
     text-align: center;
   }
   .footer__copy {
     flex-direction: column;
     align-items: center;
+  }
+  .icons {
+    justify-content: center;
   }
   .form__email {
     width: auto;
@@ -90,6 +94,9 @@
   .icons {
     margin-bottom: 20px;
     justify-content: center;
+  }
+  .experience {
+    height: auto;
   }
   .experience__img {
     display: none;

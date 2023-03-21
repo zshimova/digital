@@ -272,7 +272,8 @@ body {
   margin: 0 0 13px 0;
 }
 .hey__text-p {
-  width: 431px;
+  width: 100%;
+  max-width: 431px;
 }
 .hey__text-wrapper {
   margin-bottom: 10px;
@@ -509,7 +510,7 @@ body {
   justify-content: space-between;
 }
 .footer__copy {
-  margin-top: 130px;
+  margin: 130px 20px 0;
   display: flex;
   justify-content: space-between;
 }
