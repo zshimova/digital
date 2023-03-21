@@ -4,16 +4,6 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 20px;
-  width: 100%;
-}
-.header__logo {
-  margin-right: 48px;
-}
-
 .container {
   margin: 0 auto;
   margin-bottom: 40px;
@@ -47,11 +37,6 @@ body {
   max-width: 1024px;
 }
 
-.header__wraper {
-  display: flex;
-  align-items: center;
-}
-
 .nav {
   display: flex;
   gap: 48px;
@@ -61,11 +46,21 @@ body {
   text-decoration: none;
 }
 
+.header {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__wraper {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
 .header__cont {
   display: flex;
-}
-.header__button {
-  margin-left: 53px;
+  gap: 50px;
 }
 
 .icons {
@@ -87,7 +82,7 @@ body {
 /* ------experience--------- */
 .experience {
   display: flex;
-  height: 740px;
+  height: 691px;
   width: 100%;
 }
 .experience__content {
@@ -134,8 +129,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 325px;
-  height: 325px;
+  width: 100%;
+  max-width: 325px;
+  height: 100%;
+  max-height: 325px;
   border-radius: 30px;
   background-image: url(../img/example.png);
   background-repeat: no-repeat;
@@ -148,8 +145,10 @@ body {
   position: absolute;
   top: 100px;
   left: 169px;
-  width: 420px;
-  height: 420px;
+  width: 100%;
+  max-width: 410px;
+  height: 100%;
+  max-height: 410px;
   border-radius: 30px;
   background-image: url(../img/woman.png);
   background-repeat: no-repeat;
@@ -162,7 +161,7 @@ body {
   display: flex;
   align-items: center;
   position: absolute;
-  left: -36px;
+  left: -37px;
   top: 15px;
   width: -moz-fit-content;
   width: fit-content;
@@ -191,7 +190,7 @@ body {
 .creator {
   position: absolute;
   left: -75px;
-  top: 360px;
+  bottom: 22px;
   display: flex;
   align-items: center;
   width: -moz-fit-content;
@@ -223,6 +222,9 @@ body {
   align-items: center;
   flex-direction: column;
 }
+.hey_persons {
+  margin-top: 44px;
+}
 .hey__cont {
   width: 50%;
 }
@@ -240,7 +242,6 @@ body {
 .hey__text-sub-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding-left: 15px;
   width: 50%;
 }
@@ -248,6 +249,17 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+}
+.hey__text-suni {
+  display: flex;
+  justify-content: right;
+}
+.hey__text-suni-btn {
+  width: 166px;
+  padding: 12px 40px;
+  color: #fff;
+  background-color: #000;
+  border: none;
 }
 .hey__text-number {
   padding: 6px 20px;
@@ -285,7 +297,10 @@ body {
   padding: 11px 65px;
   background-color: #fff;
   color: #000;
-  border: 1px solid black;
+  border: 1px solid #000;
+}
+.hey__jack {
+  color: #FF7F96;
 }
 
 .button_active {

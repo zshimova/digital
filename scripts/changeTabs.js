@@ -10,10 +10,9 @@ const firstContent = `<div class="hey__sub-wrapper">
 </div>
 
 <div class="hey__text-sub-container">
-    <h3>Digital Artist</h3>
+    <h3 class="hey__jack">Digital Artist</h3>
     <h2>Pellentesque blandit <br> in quam rhoncus</h2>
-    <p class="hey__text-p">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer
-        non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+    <p class="hey__text-p">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
 </div>
 </div>`
 
@@ -23,10 +22,14 @@ const secondContent = `<div class="hey__sub-wrapper">
     <img class="hey__img" src="img/old-man.png" alt="">
 </div>
 <div class="hey__text-sub-container">
-    <h3>Digital Artist</h3>
-    <h2>Pellentesque blandit <br> in quam rhoncus</h2>
-    <p class="hey__text-p">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer
-        non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
+    <div>
+        <h3>OUR WORK</h3>
+        <h2>“Um… what’s going on here?”</h2>
+        <p class="hey__text-p">Nulla facilisi. Praesent molestie diam eu enim aliquet pellentesque. Vestibulum consectetur vestibulum tristique. Sed purus neque, maximus fermentum bibendum et, porta in sapien.</p>
+    </div>
+    <div class="hey__text-suni">
+        <button class="hey__text-suni-btn">About Codx</button>
+    </div>
 </div>
 </div>`
 

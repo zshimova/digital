@@ -7,9 +7,6 @@
   .container {
     overflow: hidden;
   }
-  .header__button {
-    margin-right: 15px;
-  }
   .experience__content {
     width: 40%;
   }
@@ -77,9 +74,6 @@
   .header__logo {
     margin-bottom: 20px;
   }
-  .header__logo {
-    width: 70px;
-  }
   .header__cont {
     margin: 0 auto;
     display: block;
@@ -102,7 +96,7 @@
     display: none;
   }
   .hey__button {
-    padding: 7px 45px;
+    padding: 7px 44px;
   }
   .hey__cont {
     display: none;

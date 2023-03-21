@@ -10,9 +10,6 @@
         .container {
             overflow: hidden;
         }
-        .header__button {
-            margin-right: 15px;
-        }
         .experience__content {
             width: 40%;
         }
@@ -86,27 +83,24 @@
     @media (max-width: 760px) {
         .header {
             flex-direction: column;
-        }
-        .header__wraper {
-            flex-direction: column;
-            margin-bottom: 20px;
-        }
-        .header__logo {
-            margin-bottom: 20px;
-        }
-        .header__logo {
-            width: 70px;
-        }
-        .header__cont {
-            margin: 0 auto;
-            display: block;
-            text-align: center;
-        }
-        .header__icons {
-            display: none;
-        }
-        .header__button {
-            margin: 0;
+            &__wraper {
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+            &__logo {
+                margin-bottom: 20px;
+            }
+            &__cont {
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+            }
+            &__icons {
+                display: none;
+            }
+            &__button {
+                margin: 0;
+            }
         }
         .icons {
             margin-bottom: 20px;
@@ -120,7 +114,7 @@
         }
         .hey {
             &__button {
-                padding: 7px 45px;
+                padding: 7px 44px;
             }
             &__cont {
                 display: none;
