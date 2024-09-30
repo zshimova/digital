@@ -1,8 +1,7 @@
-const buttons = document.querySelectorAll('.hey__button')
-const heyPersons = document.querySelector('.hey_persons')
-
-const ACTIVE_SECTION = 1
-
+// Переменные
+const buttons = document.querySelectorAll('.hey__button');
+const heyPersons = document.querySelector('.hey_persons');
+const ACTIVE_SECTION = 1;
 
 const firstContent = `<div class="hey__sub-wrapper">
 <div class="hey__cont">
@@ -14,8 +13,7 @@ const firstContent = `<div class="hey__sub-wrapper">
     <h2>Pellentesque blandit <br> in quam rhoncus</h2>
     <p class="hey__text-p">Suspendisse ante mauris, volutpat congue sem ac, ultrices tempor lorem. Nullam eget vehicula tellus, ac consectetur urna. Mauris tincidunt, libero id ultrices tincidunt, mi leo pharetra dolor, sed luctus dui ipsum et augue. Integer non quam feugiat, porttitor libero a, tempor neque. Nulla ac orci mauris. Quisque nisi nisl, rutrum ac diam et, semper commodo quam</p>
 </div>
-</div>`
-
+</div>`;
 
 const secondContent = `<div class="hey__sub-wrapper">
 <div class="hey__cont">
@@ -31,8 +29,7 @@ const secondContent = `<div class="hey__sub-wrapper">
         <button class="hey__text-suni-btn">About Codx</button>
     </div>
 </div>
-</div>`
-
+</div>`;
 
 const thirdContent = `<div class="hey__sub-wrapper">
 <div class="hey__text-sub-container">
@@ -55,38 +52,25 @@ const thirdContent = `<div class="hey__sub-wrapper">
 <div class="hey__cont">
     <img class="hey__img" src="img/black-custom.png" alt="">
 </div>
-</div>`
+</div>`;
 
-buttons.forEach((btn, index) => {
-    btn.onclick = () => {
-        buttons.forEach((item) => {
-            item.classList.remove('button_active');
-        })
-        btn.classList.add('button_active');
+const contents = [firstContent, secondContent, thirdContent];
 
-        if (index === 0) {
-            heyPersons.innerHTML = firstContent
-        };
-
-        if (index === 1) {
-            heyPersons.innerHTML = secondContent
-        };
-
-        if (index === 2) {
-            heyPersons.innerHTML = thirdContent
-        }
-    }
-})
-
-const contents = [firstContent, secondContent, thirdContent]
-
-window.onload = () => {
-    buttons[ACTIVE_SECTION].classList.add('button_active');
-    heyPersons.innerHTML = contents[ACTIVE_SECTION]
+// Функция для обновления активной кнопки и контента
+function updateContent(activeIndex) {
+    buttons.forEach((item) => {
+        item.classList.remove('button_active');
+    });
+    buttons[activeIndex].classList.add('button_active');
+    heyPersons.innerHTML = contents[activeIndex];
 }
 
+// Обработка нажатия на кнопки
+buttons.forEach((btn, index) => {
+    btn.onclick = () => updateContent(index);
+});
 
-
-// должен добавляться класс для текущего индекса
-// есть текущий индекс и есть все остальные
-//
+// Функция, срабатывающая при загрузке страницы
+window.onload = () => {
+    updateContent(ACTIVE_SECTION);
+};
